@@ -151,7 +151,7 @@ function checkNextButtonStatus() {
 nextButton.addEventListener('click', (event) => {
     if (!calendar1ButtonSelected) {
         event.preventDefault(); 
-        alert('Please select a time from Calendar1.');
+        document.querySelector('.select').style.display = 'block';
     }
 });
 

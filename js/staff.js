@@ -93,7 +93,7 @@ document.querySelector('.staff_button').addEventListener('click', (event) => {
     if (selectedItems.length > 0) {
         window.location.href = 'Service.html'; 
     } else {
-        alert('Please select a service before proceeding.');
+        document.querySelector('.select').style.display = 'block';
     }
 });
 
