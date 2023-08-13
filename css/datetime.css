@@ -1,0 +1,156 @@
+.body {
+    background-color: rgba(245, 247, 250, 1);
+}
+
+.calendar {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+}
+
+.month-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px;
+
+
+}
+
+.calendar-day {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    background-color: rgba(174, 174, 174, 0.0576);
+    color: rgba(200, 201, 204, 1);
+
+}
+
+.selected-date {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 300px;
+}
+.selected {
+    background-color: rgba(108, 112, 220, 1);
+    color: white; 
+}
+#selectedDate {
+    color: rgba(108, 112, 220, 1);
+
+}
+
+.calendardiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#prevMonthBtn {
+    border: none;
+    background-color: aliceblue;
+    font-size: 20px;
+}
+
+#nextMonthBtn {
+    border: none;
+    background-color: aliceblue;
+    font-size: 20px;
+}
+
+#monthYear {
+    font-weight: 500;
+}
+
+
+
+.days-of-week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px;
+
+}
+
+.day {
+    padding: 10px;
+    color: rgba(200, 201, 204, 1);
+}
+
+.empty-day {
+    visibility: hidden;
+}
+
+.hr {
+    border-color: #ccc;
+    border-width: 1px;
+}
+
+
+.button{
+    background-color: rgba(236, 239, 242, 1);
+    width: 85px;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+}
+.hour1{
+margin-top: -10px;
+}
+.hour{
+    margin-top: 7px;
+}
+.selectbuton{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 330px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-left: -100px;
+    margin-top: 15px;
+}
+.buttonview{
+    margin: 15px;
+    margin-top: 50px;
+    margin-left: 30px;    
+}
+
+.selectday-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 5px;
+
+}
+.selected-date{
+    margin-top: 2px;
+
+}
+.selectbuton1{
+    display: flex;
+    flex-direction: row;
+}
+.days-of-week1{
+    align-self: center;
+    margin-top: 10px;
+}
+

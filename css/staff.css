@@ -1,0 +1,161 @@
+.body {
+    background-color: rgba(245, 247, 250, 1);
+    margin: auto;
+}
+
+.staff_h1 {
+    font-size: 30px;
+    margin: 30px;
+}
+
+.continer{
+    display: flex;
+    flex-direction: row;
+}
+.continer1{
+    width: 1400px;
+    margin: auto;
+    min-height: 100vh; 
+}
+.staff-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.staff-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 1);
+    width: 90%;
+    align-self: center;
+    margin: 3%;
+    padding: 2%;
+
+}
+
+.staff-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.staff-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.staff-name {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.staff-email {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.selected {
+    border: 2px solid green;
+}
+
+.staff_buttondiv {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    width: 100%;
+    padding: 10px 0px 24px 0px;
+}
+
+.staff_button {
+    background-color: rgba(108, 112, 220, 1);
+    border-radius: 5px;
+    padding: 11px;
+    border-width: 0px;
+    margin-left: 80%;
+}
+
+.next_button {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.staff-price {
+    color: green;
+    font-weight: bold;
+    margin-top: 5px;
+    display: block; 
+    font-size: 30px;
+    align-self: flex-end;
+    z-index: 11;
+}
+.back_button{
+    color: #0f0f0f;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 200;
+}
+.back-button{
+    background-color: rgba(227, 234, 243, 1);
+    border-radius: 5px;
+    padding: 9px;
+    border-width: 0px;
+    margin-left: 50px;
+}
+#close{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.divclose{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.slider{
+    background-color: rgba(41, 45, 50, 1);
+}
+ ._slidebarh1  {
+    margin: 0; 
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;}
+._slidebarh3{
+    color: green;
+}
+._slidebarh2{
+    margin: 0; 
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+._slidebarh4{
+    margin-top: 5px;
+
+}
+._slidebarh5{
+    margin: 0; 
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(108, 112, 220, 1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/confirmation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="css/datetime.css">
+        <link rel="stylesheet" href="css/staff.css">
+        <link rel="stylesheet" href="css/category.css">
+</head>
+
+<body class="body">
+    <div class="continer">
+        <div class="slider">
+            <ul class="_slidebarul">
+                <li class="_slidebar">
+                    <a class="_slidebarlink" target="contentFrame">
+                       <h3 class="_slidebarh5"><i class="fa-solid fa-check"></i></h3>
+                        <h3 class="_slidebarh4"> Staff </h3>
+                    </a>
+                </li>
+                <li class="_slidebar">
+                    <a  class="_slidebarlink" target="contentFrame">
+                       <h3 class="_slidebarh5"><i class="fa-solid fa-check"></i></h3>
+                        <h3 class="_slidebarh4"> Services </h3>
+                    </a>
+                </li>
+                <li class="_slidebar">
+                    <a  class="_slidebarlink" target="contentFrame">
+                        <h3 class="_slidebarh5"><i class="fa-solid fa-check"></i></h3>
+                        <h3 class="_slidebarh4"> Date & Time </h3>
+                    </a>
+                </li>
+                <li class="_slidebar">
+                    <a  class="_slidebarlink" target="contentFrame">
+                        <h3 class="_slidebarh1">4</h3>
+                        <h3 class="_slidebarh3"> Confirmation </h3>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="continer1">
+            <div class="divclose">
+                <h1 class="staff_h1">Confirmation service</h1>
+                <span class="close" id="close">&times;</span>    
+                </div>
+            <form class="confirmation-form">
+                <div class="divview">
+                    <div class="input-group">
+                        <div class="input-group1">
+                            <label for="firstName">Name</label>
+                            <span class="required-star">*</span>
+                        </div>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-group1">
+                            <label for="lastName">Last Name</label>
+                            <span class="required-star">*</span>
+                        </div>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+        
+        
+        
+                <div class="divview">
+                    <div class="input-group">
+                        <div class="input-group1">
+                            <label for="email">Email</label>
+                            <span class="required-star">*</span>
+                        </div>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                </div>
+        <div>
+            <h1 class="noteh1">Note</h1>
+            <div class="divview2">
+                <h2 class="noteh2 ">Staff:</h2>
+                <p class="notep"> Maria Jule</p>
+            </div>
+            <div class="divview2">
+                <h2 class="noteh2 ">Service:</h2>
+                <p class="notep">Oral hygiene</p>
+            </div>
+            <div class="divview2">
+                <h2 class="noteh2 ">Date:</h2>
+                <p class="notep">2022-03-04 / 09.30-10.00</p>
+            </div>
+            <div class="divview2">
+                <h2 class="noteh2 ">Staff:</h2>
+                <p class="notep1"> 123 $ </p>
+            </div>
+        </div>
+            </form>
+            <div class="staff_buttondiv">
+                <button class="back-button">
+                    <a href="datetime.html" class="back_button"> BACK </a>
+                </button>
+                <button class="staff_button1">
+                    <a href="" class="next_button" id="nextButton" disabled> CONFRIM BOOKING </a>
+                </button>
+            </div>
+        
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" id="closeModalButton">&times;</span>
+                    <p style="color: greenyellow;">Confirmation successfully completed!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/confirmation.js"></script>
+</body>
+
+</html>
