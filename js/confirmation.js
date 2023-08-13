@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const selectedStaffName = new URLSearchParams(window.location.search).get('selectedStaff');
     const selectedStaffElement = document.querySelector('.notep');
 
-    // Update staff name in the confirmation page
     if (selectedStaffName) {
         selectedStaffElement.textContent = selectedStaffName;
     }

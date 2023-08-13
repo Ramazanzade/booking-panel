@@ -1,4 +1,3 @@
-// staff.js
 
 const staffList = document.querySelector('.staff-list');
 
@@ -92,7 +91,7 @@ document.querySelector('.staff_button').addEventListener('click', (event) => {
     const selectedItems = staffList.querySelectorAll('.staff-item.selected');
 
     if (selectedItems.length > 0) {
-        window.location.href = 'Service.html'; // Redirect to service.html
+        window.location.href = 'Service.html'; 
     } else {
         alert('Please select a service before proceeding.');
     }
